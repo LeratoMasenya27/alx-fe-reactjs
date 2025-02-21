@@ -20,7 +20,7 @@ function App() {
       <MainContent />
       <Footer />
       <UserProfile 
-        name="Lerato" 
+        name="Alice" 
         age="25" 
         bio="Front-end Developer" 
       />
