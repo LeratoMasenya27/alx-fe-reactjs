@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import WelcomeMessage from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/WelcomeMessage'
+import Header from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Header'
+import MainContent from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/MainContent'
+import Footer from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +15,9 @@ function App() {
     <>
       <div>
       <WelcomeMessage />
+      <Header />
+      <MainContent />
+      <Footer />
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
