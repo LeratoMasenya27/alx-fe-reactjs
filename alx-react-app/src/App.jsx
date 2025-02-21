@@ -6,6 +6,7 @@ import WelcomeMessage from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/compon
 import Header from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Header'
 import MainContent from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/MainContent'
 import Footer from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Footer'
+import UserProfile from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/UserProfile'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,11 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+      <UserProfile 
+        name="Lerato" 
+        age="25" 
+        bio="Front-end Developer" 
+      />
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
