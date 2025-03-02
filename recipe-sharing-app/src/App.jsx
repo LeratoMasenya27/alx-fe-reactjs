@@ -10,6 +10,8 @@ import RecipeList from './components/RecipeList';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeDetails from './components/RecipeDetails';
 import SearchBar from './components/SearchBar';
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/RecommendationsList';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,8 @@ function App() {
     <AddRecipeForm />
     <RecipeList />
     <SearchBar />
+    <FavoritesList />
+    <RecommendationsList />
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
