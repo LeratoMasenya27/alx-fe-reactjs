@@ -8,6 +8,8 @@ import MainContent from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/component
 import Footer from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Footer'
 import UserProfile from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/UserProfile'
 import Counter from './components/Counter'
+import ProfilePage from './components/ProfilePage';
+import UserContext from './components/UserContext';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +23,9 @@ function App() {
       <MainContent />
       <Footer />
       <Counter />
+      <ProfilePage />
+      </UserContext.Provider>
+      <UserContext.Provider value={userData}>
       <UserProfile 
         name="Alice" 
         age="25" 
