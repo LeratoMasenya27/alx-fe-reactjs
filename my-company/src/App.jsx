@@ -12,6 +12,15 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
+
+    <Routes>
+        {/* Define routes with path and element props */}
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
