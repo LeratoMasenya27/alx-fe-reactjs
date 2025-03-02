@@ -1,3 +1,5 @@
+import { useContext } from "react";
+
 function UserProfile() {
   const userData = useContext(UserContext);
 
