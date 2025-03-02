@@ -7,6 +7,7 @@ import Header from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Hea
 import MainContent from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/MainContent'
 import Footer from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/Footer'
 import UserProfile from '/Users/my pc/alx-fe-reactjs/alx-react-app/src/components/UserProfile'
+import Counter from './components/Counter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Header />
       <MainContent />
       <Footer />
+      <Counter />
       <UserProfile 
         name="Alice" 
         age="25" 
